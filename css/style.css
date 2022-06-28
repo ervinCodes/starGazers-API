@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Manrope&family=Playfair+Display&family=Sora:wght@200&family=Tangerine:wght@700&family=Titan+One&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url("/img/space2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Sora", sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  /* border: 2px solid blue; */
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  /* border: 1px solid black; */
+  flex: 1;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.description {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.image {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+}
